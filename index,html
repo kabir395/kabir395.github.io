@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abdul Kabir | Data Analyst Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #080d17;
+            color: white;
+        }
+
+        nav {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .hero {
+            padding: 110px 8%;
+        }
+
+        .badge {
+            color: #00d4aa;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: clamp(48px, 9vw, 90px);
+            margin: 20px 0;
+        }
+
+        h1 span {
+            color: #00d4aa;
+        }
+
+        .subtitle {
+            font-size: 25px;
+            color: #a0aec0;
+        }
+
+        .description {
+            max-width: 650px;
+            line-height: 1.8;
+            color: #a0aec0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 25px;
+            background: #00d4aa;
+            color: #080d17;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 25px 10px 0 0;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 8%;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #121c2c;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #263347;
+        }
+
+        .card p {
+            color: #a0aec0;
+            line-height: 1.6;
+        }
+
+        footer {
+            padding: 30px 8%;
+            color: #a0aec0;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            nav a {
+                margin-left: 0;
+                margin-right: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <strong>AK.</strong>
+
+        <div>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+        <p class="badge">● OPEN TO OPPORTUNITIES</p>
+
+        <h1>Abdul<br><span>Kabir.</span></h1>
+
+        <p class="subtitle">
+            Data Analyst | Business Analyst
+        </p>
+
+        <p class="description">
+            Transforming complex datasets into actionable
+            business insights through SQL, Python,
+            Power BI and intelligent automation.
+
+            MSc Data Science graduate from the
+            University of Essex.
+        </p>
+
+        <a class="button" href="#projects">
+            Explore Projects ↓
+        </a>
+
+        <a class="button" href="#contact">
+            Get in Touch →
+        </a>
+
+    </div>
+
+    <section id="skills">
+
+        <h2>My Technical Arsenal</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🐍 Programming</h3>
+                <p>Python, Pandas, NumPy, R</p>
+            </div>
+
+            <div class="card">
+                <h3>🗄️ Databases</h3>
+                <p>SQL, Joins, CTEs, Window Functions</p>
+            </div>
+
+            <div class="card">
+                <h3>📊 Business Intelligence</h3>
+                <p>Power BI, Tableau, Excel, DAX</p>
+            </div>
+
+            <div class="card">
+                <h3>🧠 Machine Learning</h3>
+                <p>Scikit-learn, Classification, Clustering</p>
+            </div>
+
+            <div class="card">
+                <h3>⚙️ Automation</h3>
+                <p>Python, ETL, Power Automate</p>
+            </div>
+
+            <div class="card">
+                <h3>🛠️ Tools</h3>
+                <p>Git, GitHub, Jupyter Notebook</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>Featured Projects</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Customer Churn Prediction</h3>
+
+                <p>
+                    Machine learning model predicting
+                    customer churn using Python and
+                    Scikit-learn.
+                </p>
+
+                <a href="https://github.com/kabir395/Churn-Prediction">
+                    View Project →
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>Retail Sales Analytics</h3>
+
+                <p>
+                    Retail data analysis using Python,
+                    SQL and data visualisation.
+                </p>
+
+                <a href="https://github.com/kabir395/retail-sales-analytics">
+                    View Project →
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>Agentic AI</h3>
+
+                <p>
+                    Exploring AI agents and
+                    intelligent automation.
+                </p>
+
+                <a href="https://github.com/kabir395/AGENTIC-AI">
+                    View Project →
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p class="description">
+            I'm Abdul Kabir, an MSc Data Science graduate
+            from the University of Essex.
+
+            My interests include data analytics,
+            business intelligence, machine learning
+            and reporting automation.
+
+            I enjoy turning raw data into meaningful
+            insights that support business decisions.
+        </p>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Let's Work Together</h2>
+
+        <p>Open to Data Analyst and Business Analyst opportunities.</p>
+
+        <a class="button"
+           href="https://github.com/kabir395">
+           GitHub
+        </a>
+
+        <a class="button"
+           href="mailto:abdulkabir84435@gmail.com">
+           Email Me
+        </a>
+
+    </section>
+
+    <footer>
+        © 2026 Abdul Kabir | Data Analyst Portfolio
+    </footer>
+
+</body>
+</html>
