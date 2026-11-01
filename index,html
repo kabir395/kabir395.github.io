@@ -199,6 +199,30 @@
         <div class="cards">
 
             <div class="card">
+
+<div class="card">
+  <h3>📊 Retail Sales Performance Dashboard</h3>
+
+  <p>
+    Built an Excel sales dashboard analysing £6,620
+    in revenue across 55 units sold. Developed four
+    KPIs, revenue visualisations and actionable
+    business insights to identify product performance
+    and revenue concentration risks.
+  </p>
+
+  <p>
+    <strong>Tools:</strong> Microsoft Excel,
+    Data Cleaning, KPI Reporting, Data Visualisation
+  </p>
+
+  <a href="https://github.com/kabir395/retail-sales-excel-dashboard"
+     target="_blank"
+     rel="noopener noreferrer">
+    View Project →
+  </a>
+</div>
+
                 <h3>Customer Churn Prediction</h3>
 
                 <p>
